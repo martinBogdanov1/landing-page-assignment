@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import 'querries.css';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.025em;
+}
+
+p {
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+
+}
+
+.logo-img img {
+    padding-top: 8.5vh;
+}
+
+/* header section */
+.header {
+    background-image: url('assets/icons/Header4.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slogan {
+    color: #fff;
+    margin-top: 8vh;
+    font-weight: 300;
+}
+
+.slogan .big {
+    font-size: 48px;
+    line-height: 60pt;
+}
+
+.slogan .small {
+    line-height: 30pt;
+    font-size: 24px;
+    margin-top: 20px
+}
+
+.learn-more {
+    margin-top: 6%;
+}
+
+.learn-more a {
+    font-size: 18px;
+    background-color: #3c8cff;
+    line-height: 22pt;
+    padding: 3% 3%;
+    text-align: center;
+    font-weight: 500;
+    border: 0;
+    width: 60%;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+
+.fees {
+    margin-top: 4%;
+}
+
+.list-fees {
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 25;
+    padding: 0;
+    height: 50%;
+    margin-top: 24%;
+    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(60, 140, 255, 1) 0%, rgba(9, 193, 220, 1) 100%);
+
+}
+
+.list-fees ul {
+    margin: 6% 0 6% 13.5%;
+}
+
+.list-fees ul li {
+    padding-left: 2%;
+    margin-top: 10%;
+}
+
+.list-fees li:first-child {
+    margin-top:0;
+}
+
+.item-header {
+    position: relative;
+}
+
+.item-header img {
+    margin-left: 10%;
+}
+
+/* custom price bubble - header */
+.price-bubble-header {
+    color: white;
+    background-color: #0076ba;
+    width: 126px;
+    height: 126px;
+    border-radius: 50% 50% 0 50%;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(60, 140, 255, 1) 0%, rgba(9, 193, 220, 1) 100%);
+    position: absolute;
+    left: 16%;
+    top: 9%;
+    text-align: left;
+    line-height: 1;
+    font-size: 32px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.price-bubble-header p {
+    margin: 20% 0 0 20%;
+}
+
+.price-bubble-header p strong{
+    font-size: 40px;
+}
+
+.price-bubble-header span {
+    font-size: 10px;
+}
+
+.price-bubble-header sup {
+    font-size: 12px;
+}
+
+/* content section */
+.content {
+    background-image: url('assets/icons/_0005s_0000_Rectangle-109-copy.png'), url('assets/icons/_0005s_0001_Rectangle-109.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top, right bottom;
+    background-size: 30%;
+}
+
+.title {
+    color: #333;
+    margin-top: 4.5%;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+/* features section */
+.feature p.price{
+    color: #333;
+    font-weight: 700;
+}
+
+.feature div {
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 210px;
+}
+
+.features {
+    margin-top: 7vh;
+}
+
+.features img {
+    min-width: 194px;
+}
+
+
+/* devices section */
+.devices {
+    margin-top: 10%;
+    align-items: end;
+}
+
+.devices>div {
+    position: relative;
+}
+
+.devices p.title:not(.special-title, .special-desc) {
+    color: #333;
+    margin: 0;
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.special-title {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10%;
+}
+
+.special-desc {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20%;
+}
+
+.special-title,
+.special-desc {
+    padding-left: 10%;
+    color: #333;
+    text-align: left;
+}
+
+.special a {
+    font-size: 18px;
+    background-color: #3c8cff;
+    line-height: 22pt;
+    padding: 3% 9.5%;
+    text-align: center;
+    font-weight: 500;
+    border: 0;
+    width: 50%;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #0076ba;
+}
+
+
+.special {
+    align-self: center;
+}
+
+.logos {
+    margin-top: 15%;
+}
+
+.logos ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+/* footer */
+.footer {
+    background-color: #333;
+}
+
+.annotation {
+    color: #b9b9b9;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.legal {
+    color: #b9b9b9;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.hr {
+    margin-top: 2vh;
+    border: 1px solid #959595;
+}
+
+.legal p {
+    display: inline;
+    padding-left: 1.5vw;
+    margin: 0;
+}
+
+.legal span {
+    color: #048ef8;
+    display: inline-block;
+    padding-right: 1vh;
+}
+
+.address {
+    color: #b9b9b9;
+    font-size: 12px;
+    margin-top: 2vh;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+/* custom price bubble */
+.price-bubble {
+    color: white;
+    background-color: #0076ba;
+    width: 96px;
+    height: 96px;
+    border-radius: 50% 50% 50% 0;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(60, 140, 255, 1) 0%, rgba(9, 193, 220, 1) 100%);
+    position: absolute;
+    left: 60%;
+    top: -5%;
+    text-align: left;
+    line-height: 1;
+    font-size: 26px;
+    font-weight: 500;
+    word-spacing: 2px;
+    z-index: 2;
+}
+
+.price-bubble p {
+    margin: 20% 0 0 20%;
+}
+
+.price-bubble span {
+    font-size: 8px;
+}
+
+.price-bubble sup {
+    font-size: 10px;
+}
+
+/* hover */
+.devices .device-img-wrapper:hover .image {
+    background-position: center;
+    transform: rotate(350deg);
+    background-image: url('assets/_0000s_0024_Rectangle-91.png');
+}
+
+/* tooltip */
+.tooltiptext {
+    visibility: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    width: 70%;
+    height: 15vh;
+    background-color: white;
+    color: black;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    text-align: left;
+    border-radius: 6px;
+    padding-left: 5%;
+    position: absolute;
+    z-index: 1;
+    top: -20vh;
+    left: 2.5vw;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.device-img-wrapper:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext span {
+    display: block;
+    color: #048ef8;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 4%;
+}

@@ -1,0 +1,41 @@
+@media (max-width : 576px) {
+    .row.features {
+        text-align: center;
+    }
+
+    .header .slogan .big {
+        color: #333;
+        font-size: 40px;
+    }
+
+    .logos ul {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .header .price-bubble-header {
+        width: 100px;
+        height: 100px;
+        left: 5%;
+        top: -2%;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width : 992px) {
+    .header .slogan .small {
+        color: #333;
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .special-title,
+    .special-desc {
+        text-align: center;
+        padding: 0;
+    }
+}
